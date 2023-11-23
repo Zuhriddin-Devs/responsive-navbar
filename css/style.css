@@ -54,3 +54,18 @@ body {
     font-size: 22px;
     font-weight: 700;
 }
+
+/* NAV AND MOBILE NAV STYLES */
+.list-item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+}
