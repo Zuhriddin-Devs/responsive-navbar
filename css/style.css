@@ -119,10 +119,6 @@ body {
 
 /* JAVASCRIPT STYLES */
 
-.burger-active {
-    display: block;
-}
-
 .hidden {
     display: none;
 }
