@@ -125,3 +125,22 @@ body {
 .hidden {
     display: none;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        display: block;
+    }
+}
