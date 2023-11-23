@@ -1,4 +1,5 @@
 // MOBILE NAV FUNCTION
+
 const mobileNav = () => {
     const elMobileNav = document.querySelector('#js-mobile-nav');
     const elBurgerBtn = document.querySelector('#js-burger-btn');
