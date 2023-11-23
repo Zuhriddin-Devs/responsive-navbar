@@ -115,3 +115,13 @@ body {
     width: 30px;
     height: 30px;
 }
+
+/* JAVASCRIPT STYLES */
+
+.burger-active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
