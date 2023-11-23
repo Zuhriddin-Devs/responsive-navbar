@@ -36,3 +36,16 @@ body {
     margin: 0 auto;
     padding: 0 25px;
 }
+
+.header {
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 25px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
