@@ -66,6 +66,34 @@ body {
     transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.mobile-nav-link:hover {
     color: #ff0000;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #1a95ad;
+}
+
+.mobile-list {
+    flex-direction: column;
+}
+
+.mobile-list-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.mobile-nav-link {
+    font-size: 28px;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
