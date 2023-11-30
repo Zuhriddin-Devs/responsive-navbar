@@ -23,6 +23,7 @@ ul {
 
 body {
     width: 100%;
+    min-width: 210px;
     height: 100vh;
     background-color: #fff;
     font-family: 'Montserrat', sans-serif;
